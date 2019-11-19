@@ -27,13 +27,23 @@ npm i react-adaptive-hooks --save
 
 首先需要您在项目中加载本库中的钩子
 
+```javascript
+import { useNetworkStatus } from "vue-adaptive-hooks/network";
+import { useSaveData } from "vue-adaptive-hooks/save-data";
+import { useHardwareConcurrency } from "vue-adaptive-hooks/hardware-concurrency";
+import { useMemoryStatus } from "vue-adaptive-hooks/memory";
+import { useBatteryStatus } from "vue-adaptive-hooks/battery";
 ```
-import { useNetworkStatus } from 'vue-adaptive-hooks/network';
-import { useSaveData } from 'vue-adaptive-hooks/save-data';
-import { useHardwareConcurrency } from 'vue-adaptive-hooks/hardware-concurrency';
-import { useMemoryStatus } from 'vue-adaptive-hooks/memory';
-import { useBatteryStatus } from 'vue-adaptive-hooks/battery';
-```
+
+## 浏览器支持情况
+
+| 浏览器 API                                                                                                                          | Chrome | Edge | Firefox | Internet Explorer | Opera | Safari | Android webview | Chrome for Android | Firefox for Android | Opera for Android | Safari on iOS |
+| :---------------------------------------------------------------------------------------------------------------------------------- | :----: | :--: | :-----: | :---------------: | :---: | :----: | :-------------: | :----------------: | :-----------------: | :---------------: | :-----------: |
+| [`navigator.hardwareConcurrency`](https://developer.mozilla.org/zh-CN/docs/Web/API/NavigatorConcurrentHardware/hardwareConcurrency) |  37+   | 15+  |   48+   |        ❌         |  24+  |   ❌   |       37+       |        37+         |         48+         |        24+        |      ❌       |
+| [`navigator.connection.effectiveType`](https://developer.mozilla.org/zh-CN/docs/Web/API/Navigator/connection)                       |  61+   |  ❌  |   ❌    |        ❌         |  48+  |   ❌   |       50+       |        38+         |         Yes         |        45+        |      ❌       |
+| [`navigator.connection.saveData`](https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation/saveData)                     |  65+   |  ❌  |   ❌    |        ❌         |  Yes  |   ❌   |       65+       |        65+         |         ❌          |        Yes        |      ❌       |
+| [`performance.memory`](https://developer.mozilla.org/zh-CN/docs/Web/API/Performance/memory)                                         |  37+   |  ❌  |   ❌    |        ❌         |  Yes  |   ❌   |       Yes       |        18+         |         ❌          |        Yes        |      ❌       |
+| [`navigator.deviceMemory`](https://developer.mozilla.org/zh-CN/docs/Web/API/Navigator/deviceMemory)                                 |  63+   |  ❌  |   ❌    |        ❌         |  50+  |   ❌   |       63+       |        76+         |         ❌          |        46+        |      ❌       |
 
 ## License
 
