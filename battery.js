@@ -4,7 +4,7 @@ let unsupported;
 
 const useBatteryStatus = () => {
     // 检查浏览器是否支持 navigator.getBattery
-    if ("getBattery" in navigator) {
+    if (typeof navigator !== "undefined" && "getBattery" in navigator) {
         unsupported = false;
     } else {
         unsupported = true;
