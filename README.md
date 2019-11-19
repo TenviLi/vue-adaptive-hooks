@@ -1,6 +1,6 @@
 # vue-adaptive-hooks
 
-[![GitHub](https://img.shields.io/github/license/gylidian/vue-adaptive-hooks)](https://github.com/gylidian/vue-adaptive-hooks) [![Gitter](https://img.shields.io/gitter/room/gylidian/vue-adaptive-hooks)](https://gitter.im/vue-adaptive-hooks/community)
+[![GitHub](https://img.shields.io/github/license/gylidian/vue-adaptive-hooks)](https://github.com/gylidian/vue-adaptive-hooks) [![Gitter](https://img.shields.io/gitter/room/gylidian/vue-adaptive-hooks)](https://gitter.im/vue-adaptive-hooks/community) [![npm](https://img.shields.io/npm/v/vue-adaptive-hooks)](https://www.npmjs.com/package/vue-adaptive-hooks)
 
 > 🚈 基于实验性的浏览器 API，提供最适合用户设备和网络限制的体验
 
