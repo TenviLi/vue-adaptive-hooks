@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/gylidian/vue-adaptive-hooks#readme",
   "devDependencies": {
-    "cz-emoji": "^1.1.2"
+    "cz-conventional-changelog": "^3.0.2"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-emoji"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
