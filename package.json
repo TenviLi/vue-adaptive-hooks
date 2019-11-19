@@ -27,7 +27,8 @@
   },
   "homepage": "https://github.com/gylidian/vue-adaptive-hooks#readme",
   "devDependencies": {
-    "cz-conventional-changelog": "^3.0.2"
+    "cz-conventional-changelog": "^3.0.2",
+    "vue-hooks": "^0.3.2"
   },
   "config": {
     "commitizen": {
