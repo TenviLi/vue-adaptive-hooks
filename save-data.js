@@ -7,7 +7,7 @@ if ("connection" in navigator && "saveData" in navigator.connection) {
     unsupported = true;
 }
 
-const initialSaveData = 
+const initialSaveData;
 
 if (!unsupported) {
     initialSaveData = {
