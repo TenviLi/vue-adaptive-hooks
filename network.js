@@ -4,7 +4,11 @@ let unsupported;
 
 const useNetworkStatus = () => {
     // 检查浏览器是否支持 Navigator.connection
-    if ("connection" in navigator && "effectiveType" in navigator.connection) {
+    if (
+        typeof navigator !== "undefined" &&
+        "connection" in navigator &&
+        "effectiveType" in navigator.connection
+    ) {
         unsupported = false;
     } else {
         unsupported = true;
