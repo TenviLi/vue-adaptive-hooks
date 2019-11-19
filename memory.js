@@ -1,5 +1,3 @@
-import { useState, useEffect } from "vue-hooks";
-
 let unsupported;
 
 // 检查浏览器是否支持 Navigator.deviceMemory
