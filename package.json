@@ -1,0 +1,37 @@
+{
+  "name": "vue-adaptive-hooks",
+  "version": "0.0.1",
+  "description": "Provide the best experience for user devices and network restrictions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gylidian/vue-adaptive-hooks.git"
+  },
+  "keywords": [
+    "vue-hooks",
+    "hooks",
+    "vue",
+    "adaptive",
+    "network",
+    "memory",
+    "concurrency",
+    "savedata"
+  ],
+  "author": "gylidian",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gylidian/vue-adaptive-hooks/issues"
+  },
+  "homepage": "https://github.com/gylidian/vue-adaptive-hooks#readme",
+  "devDependencies": {
+    "cz-emoji": "^1.1.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    }
+  }
+}
