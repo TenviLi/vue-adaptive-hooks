@@ -1,5 +1,7 @@
 # vue-adaptive-hooks
 
+[![GitHub](https://img.shields.io/github/license/gylidian/vue-adaptive-hooks)](https://github.com/gylidian/vue-adaptive-hooks) [![Gitter](https://img.shields.io/gitter/room/gylidian/vue-adaptive-hooks)](https://gitter.im/vue-adaptive-hooks/community)
+
 > 🚈 基于实验性的浏览器 API，提供最适合用户设备和网络限制的体验
 
 本项目基于 [vue-hooks](https://www.npmjs.com/package/vue-hooks)，提供了一系列访问设备和网络信息的钩子用于自适应加载，以改善不同环境下用户的使用体验。
