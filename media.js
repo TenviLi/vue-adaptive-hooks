@@ -18,7 +18,7 @@ const useMediaCapabilities = mediaConfig => {
                 unsupported: true
             };
         }
-    } else if (typeof MediaSource !== "undefined") {
+    } else if (typeof window !== 'undefined' && "MediaSource" in window) {
         initialMediaCapabilities = {
             support: MediaSource.isTypeSupported(
                 mediaConfig.audio.contentType || mediaConfig.video.contentType
