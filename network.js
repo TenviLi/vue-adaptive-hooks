@@ -2,7 +2,7 @@ import { useState, useEffect } from "vue-hooks";
 
 let unsupported;
 
-const useNetworkStatus = () => {
+const useNetworkStatus = (initialEffectiveConnectionType = "4g") => {
     // 检查浏览器是否支持 Navigator.connection
     if (
         typeof navigator !== "undefined" &&
@@ -19,7 +19,8 @@ const useNetworkStatus = () => {
               effectiveConnectionType: navigator.connection.effectiveType
           }
         : {
-              unsupported
+              unsupported,
+              effectiveConnectionType: initialEffectiveConnectionType
           };
 
     const [networkStatus, setNetworkStatus] = useState(initialNetworkStatus);
