@@ -1,6 +1,6 @@
 {
     "name": "vue-adaptive-hooks",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "Provide the best experience for user devices and network restrictions",
     "main": "index.js",
     "scripts": {
